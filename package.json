@@ -1,7 +1,7 @@
 {
-  "name": "validate-branch-name",
-  "version": "1.3.0",
-  "description": "Git branch name validator",
+  "name": "@aynzayn/git-validate",
+  "version": "0.0.0",
+  "description": "Validator of Git entities",
   "main": "index.js",
   "bin": {
     "validate-branch-name": "cli.js"
@@ -15,26 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JsonMa/validate-branch-name.git"
+    "url": "git+https://github.com/aynzayn/git-validate.git"
   },
-  "keywords": [
-    "validate-branch-name",
-    "branch-name",
-    "branch",
-    "hook",
-    "git",
-    "git hook",
-    "git branch name",
-    "branch name",
-    "pre push",
-    "git push"
-  ],
-  "author": "jsonma",
+  "author": "aynzayn",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/JsonMa/validate-branch-name/issues"
-  },
-  "homepage": "https://github.com/JsonMa/validate-branch-name#readme",
+  "homepage": "https://github.com/aynzayn/git-validate#readme",
   "dependencies": {
     "commander": "^8.3.0",
     "cosmiconfig": "^7.0.1",
