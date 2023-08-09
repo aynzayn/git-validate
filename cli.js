@@ -2,6 +2,8 @@
 
 'use strict';
 
+console.warn('@aynzayn/cli.js');
+
 const branchName = require('current-git-branch');
 const { Command, Option } = require('commander');
 const path = require('path');
@@ -28,6 +30,7 @@ if (!options.branch && !currentBranchName) {
   process.exitCode = FAILED_CODE;
   return;
 }
+
 try {
   const result = validateBranchName(branch, options.regexp);
   process.exitCode = result ? SUCCESS_CODE : FAILED_CODE;
